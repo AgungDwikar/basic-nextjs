@@ -1,3 +1,42 @@
 {
-  "extends": "next/core-web-vitals"
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended",
+        "plugin:prettier/react",
+        "plugin:prettier/@typescript-eslint"
+  
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        "prettier"
+    ],
+    "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+        "react/react-in-jsx-scope" : "off",
+        "indent": "off",
+        "react/jsx-indent" : "off",
+        "linebreak-style" : "off",
+        "react/function-component-definition": "off",
+        "arrow-body-style": ["error", "always"],
+        "react/jsx-indent-props": "off",
+        "quotes" : "off",
+        "react/jsx-one-expression-per-line" : "off"
+    },
+    "globals": {
+        "react" : "writable"
+    }
 }

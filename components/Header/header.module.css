@@ -1,0 +1,25 @@
+.container {
+    box-shadow: 3px 3px 11px 3px rgb(0 0 0 / 32%);
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.item {
+    margin: 0px 16px;
+}
+.logo {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 16px;
+    font-weight: bold;
+    margin: 0px 16px;
+}
+

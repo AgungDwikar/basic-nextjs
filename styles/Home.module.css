@@ -84,6 +84,17 @@
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
 }
+.jumbotron {
+  padding: 16px;
+  box-shadow: 3px 3px 11px 3px rgb(0 0 0 / 32%);
+  width : auto;
+  height: 300px;
+  border-radius: 12px;
+  margin: 12px;
+  cursor: pointer;
+  justify-content: center;
+
+}
 
 .card:hover,
 .card:focus,
@@ -107,10 +118,44 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+.title-homepage {
+  text-align: center;
+}
+.image {
+  border-radius: 10px;
+  margin-top: 500px;
+}
+.btn-wrap{
+  margin-top: 90px;
+  width: 100%;
+  justify-content: center;
+  padding-left: 40%;
+  padding-right: 40%;
+
+}
+.btn-home {
+  padding: 8px 10px;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #15f4ee;
+  /* border: 1px solid #ffffff30; */
+  font-size: 16px;
+  transition: 1.5s;
+  /* transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1); */
+  align-items: center;
+  background-color: #2927278f;
+  justify-content: center;
+  cursor: pointer;
+  position: static;
+}
 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+   
   }
 }
